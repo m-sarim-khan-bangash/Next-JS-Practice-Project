@@ -1,0 +1,55 @@
+/* ReposView.module.css */
+.repoContainer {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #e1e4e8;
+    border-radius: 5px;
+    background-color: #f6f8fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .repoName {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #0366d6;
+  }
+  
+  .repoDescription {
+    margin-bottom: 15px;
+    color: #586069;
+  }
+  
+  .repoStats {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 0.9em;
+    color: #586069;
+  }
+  
+  .repoStat{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .icon {
+    margin-right: 5px;
+  
+  }
+  
+  .viewButton {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .viewButton:hover {
+    background-color: #218838;
+  }
+  

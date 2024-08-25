@@ -1,0 +1,69 @@
+/* RepoDetail.module.css */
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    background-color: #f6f8fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .repoName {
+    font-size: 2em;
+    color: #0366d6;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .repoDescription {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #586069;
+    text-align: center;
+  }
+  
+  .repoStats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: #586069;
+  }
+  
+  .repoStatItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    color: #0366d6;
+  }
+  
+  .visibility {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .repoContent {
+    margin: 20px auto; max-width: 800px;
+    text-align: center;
+  }
+
+  .backButton {
+    margin-top: 15px;
+    padding: 10px 35px;
+    background-color: #0366d6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .backButton:hover {
+    background-color: #03346b;
+  }

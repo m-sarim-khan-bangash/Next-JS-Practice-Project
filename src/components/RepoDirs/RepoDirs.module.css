@@ -1,0 +1,38 @@
+.container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    color: #555;
+    font-size: 1.1em;
+  }
+  
+  .li:hover {
+    background-color: #ececec;
+    cursor: pointer;
+  }
+  
